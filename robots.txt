@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maazxp.github.io/Maazxp-page/sitemap.xml
