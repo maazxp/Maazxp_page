@@ -15,7 +15,6 @@
 - Blender, Photoshop
 
 ## الروابط
-- [الموقع الرسمي](https://maazxp.netlify.app/)
+- [الموقع الرسمي](https://maazxp.github.io/Maazxp_page/)
 - [قناة اليوتيوب](https://www.youtube.com/@Maaazxp)
-
 - [صفحة Itch.io](https://maazxp.itch.io/)
