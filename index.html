@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moaz | Maazxp - مبرمج وصانع ألعاب باستخدام محرك Godot</title>
+
+    <!-- بيانات SEO -->
+    <title>Maazxp_dev</title>
     <meta
       name="description"
       content="Maazxp (Moaz) - مطور ألعاب محترف متخصص في محرك Godot. استكشف مشاريعي وألعابي على Itch.io وقناة اليوتيوب."
@@ -13,49 +15,46 @@
       content="Maazxp, Moaz, Godot, مطور ألعاب, game developer, Godot Engine, GDScript, ألعاب, برمجة, Blender"
     />
     <meta name="author" content="Moaz" />
-    <meta
-      name="robots"
-      content="index, follow, max-snippet:150, max-image-preview:large, max-video-preview:-1"
-    />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="bingbot" content="index, follow" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Google Search Console Verification -->
     <meta
       name="google-site-verification"
-      content="3VL3SvJQ0wQIAtTS0LkKNziMWbSkIEr-s3aAsftIE1Y"
+      content="nMN7valAYl0oS38b9VUZB2Ar4BUe44gz6nG9pUREC7w"
     />
-    <meta
-      property="og:title"
-      content="Moaz | Maazxp - مبرمج وصانع ألعاب باستخدام محرك Godot"
-    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Moaz | Maazxp - مبرمج وصانع ألعاب" />
     <meta
       property="og:description"
-      content="Maazxp (Moaz) - مطور ألعاب محترف متخصص في محرك Godot. استكشف مشاريعي وألعابي على Itch.io وقناة اليوتيوب."
+      content="مطور ألعاب محترف متخصص في محرك Godot"
     />
     <meta property="og:image" content="https://maazxp.netlify.app/1.jpg" />
     <meta property="og:url" content="https://maazxp.netlify.app/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ar_AR" />
-    <meta property="og:site_name" content="Maazxp" />
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Moaz | Maazxp - مبرمج وصانع ألعاب باستخدام محرك Godot"
-    />
+    <meta name="twitter:title" content="Moaz | Maazxp - مبرمج وصانع ألعاب" />
     <meta
       name="twitter:description"
-      content="Maazxp (Moaz) - مطور ألعاب محترف متخصص في محرك Godot. استكشف مشاريعي وألعابي على Itch.io وقناة اليوتيوب."
+      content="مطور ألعاب محترف متخصص في محرك Godot"
     />
-    <meta name="twitter:image" content="https://maazxp.netlify.app/1.jpg" />
-    <meta name="twitter:site" content="@Maazxp" />
+    <meta name="twitter:image" content="https://maazxp.netlify.app//1.jpg" />
+
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://maazxp.netlify.app/" />
+
+    <!-- Schema.org markup -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Moaz",
         "alternateName": "Maazxp",
-        "url": "https://maazxp.github.io/Maazxp_page/",
-        "image": "https://maazxp.github.io/Maazxp_page/1.jpg",
+        "url": "https://maazxp.netlify.app/",
+        "image": https://maazxp.netlify.app/1.jpg",
         "description": "مطور ألعاب محترف متخصص في محرك Godot",
         "jobTitle": "Game Developer",
         "knowsAbout": [
@@ -75,6 +74,8 @@
         ]
       }
     </script>
+
+    <!-- الروابط الأساسية -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -83,7 +84,7 @@
       href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- الشريط العلوي -->
@@ -109,32 +110,8 @@
             <li>
               <a href="#contact" data-ar="التواصل" data-en="Contact">التواصل</a>
             </li>
-            <!-- إضافة رابط لوحة المستخدم -->
-            <li class="user-menu" style="display: none">
-              <a href="#user-dashboard" data-ar="لوحتي" data-en="My Dashboard"
-                >لوحتي</a
-              >
-            </li>
           </ul>
           <div class="header-controls">
-            <!-- زر تسجيل الدخول -->
-            <button
-              class="auth-toggle"
-              id="auth-toggle"
-              title="تسجيل الدخول / Login"
-            >
-              <i class="fas fa-user"></i>
-            </button>
-            <!-- زر الإدارة (يظهر فقط للمسؤول) -->
-            <button
-              class="admin-toggle"
-              id="admin-toggle"
-              style="display: none"
-              title="لوحة الإدارة / Admin Panel"
-            >
-              <i class="fas fa-cog"></i>
-            </button>
-            <!-- باقي الأزرار تبقى كما هي -->
             <button
               class="lang-toggle"
               id="lang-toggle"
@@ -168,7 +145,6 @@
                 src="1.jpg"
                 alt="Moaz - Maazxp مطور ألعاب محترف"
                 class="profile-img"
-                onerror="this.style.display='none'"
               />
             </div>
             <div class="profile-info">
@@ -187,25 +163,13 @@
                 أبدع في تطوير الألعاب وتصميم تجارب تفاعلية فريدة باستخدام أحدث
                 التقنيات
               </p>
-
-              <div class="hero-buttons">
-                <a
-                  href="#projects"
-                  class="btn"
-                  data-ar="استكشف أعمالي"
-                  data-en="View My Work"
-                  >استكشف أعمالي</a
-                >
-                <a
-                  href="https://youtu.be/CerKalV_C_w"
-                  class="btn btn-video"
-                  target="_blank"
-                  data-ar="مشاهدة الفيديو التعريفي"
-                  data-en="Watch Intro Video"
-                >
-                  <i class="fab fa-youtube"></i> مشاهدة الفيديو التعريفي
-                </a>
-              </div>
+              <a
+                href="#projects"
+                class="btn"
+                data-ar="استكشف أعمالي"
+                data-en="View My Work"
+                >استكشف أعمالي</a
+              >
 
               <div class="social-links">
                 <a
@@ -259,8 +223,106 @@
           استكشف أبرز أعمالي في تطوير الألعاب والتجارب التفاعلية
         </p>
 
-        <div class="projects-grid" id="projects-container">
-          <!-- سيتم ملؤها ديناميكياً من JavaScript -->
+        <div class="projects-grid">
+          <!-- مشروع قريبًا -->
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+              "
+            >
+              <span>🚀</span>
+            </div>
+            <div class="project-content">
+              <h3 data-ar="مشروع قريبًا" data-en="Coming Soon">مشروع قريبًا</h3>
+              <p
+                data-ar="أعمل حاليًا على مشاريع جديدة ومثيرة ستكون متاحة قريبًا. تابعني لترى أحدث إبداعاتي في عالم تطوير الألعاب."
+                data-en="I'm currently working on new and exciting projects that will be available soon. Follow me to see my latest creations in the world of game development."
+              >
+                أعمل حاليًا على مشاريع جديدة ومثيرة ستكون متاحة قريبًا. تابعني
+                لترى أحدث إبداعاتي في عالم تطوير الألعاب.
+              </p>
+              <div class="project-actions">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  data-ar="تواصل معي"
+                  data-en="Contact Me"
+                  >تواصل معي</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- مشروع جديد آخر قريبًا -->
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+              "
+            >
+              <span>🎮</span>
+            </div>
+            <div class="project-content">
+              <h3 data-ar="لعبة جديدة قريبًا" data-en="New Game Coming Soon">
+                لعبة جديدة قريبًا
+              </h3>
+              <p
+                data-ar="لعبة جديدة قيد التطوير باستخدام محرك Godot، ستوفر تجربة لعب فريدة ومثيرة. ترقبوا الإطلاق!"
+                data-en="A new game under development using Godot Engine, offering a unique and exciting gameplay experience. Stay tuned for the launch!"
+              >
+                لعبة جديدة قيد التطوير باستخدام محرك Godot، ستوفر تجربة لعب
+                فريدة ومثيرة. ترقبوا الإطلاق!
+              </p>
+              <div class="project-actions">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  data-ar="كن أول من يعرف"
+                  data-en="Be the First to Know"
+                  >كن أول من يعرف</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- مشروع تعليمي قريبًا -->
+          <div class="project-card fade-in">
+            <div
+              class="project-img"
+              style="
+                background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+              "
+            >
+              <span>📚</span>
+            </div>
+            <div class="project-content">
+              <h3
+                data-ar="مشروع تعليمي قريبًا"
+                data-en="Educational Project Coming Soon"
+              >
+                مشروع تعليمي قريبًا
+              </h3>
+              <p
+                data-ar="مشروع تعليمي يهدف إلى مساعدة المطورين المبتدئين في تعلم أساسيات تطوير الألعاب باستخدام Godot وGDScript."
+                data-en="An educational project aimed at helping beginner developers learn the basics of game development using Godot and GDScript."
+              >
+                مشروع تعليمي يهدف إلى مساعدة المطورين المبتدئين في تعلم أساسيات
+                تطوير الألعاب باستخدام Godot وGDScript.
+              </p>
+              <div class="project-actions">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  data-ar="اعرف المزيد"
+                  data-en="Learn More"
+                  >اعرف المزيد</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- قسم Itch.io -->
@@ -515,82 +577,6 @@
       </div>
     </section>
 
-    <!-- قسم لوحة المستخدم -->
-    <section class="user-dashboard" id="user-dashboard" style="display: none">
-      <div class="container">
-        <h2 data-ar="لوحة المستخدم" data-en="User Dashboard">لوحة المستخدم</h2>
-        <div class="dashboard-content fade-in">
-          <div class="welcome-message">
-            <h3 data-ar="مرحباً بك!" data-en="Welcome!">مرحباً بك!</h3>
-            <p id="user-email-display"></p>
-          </div>
-
-          <div class="dashboard-grid">
-            <div class="dashboard-card">
-              <div class="dashboard-icon">
-                <i class="fas fa-bell"></i>
-              </div>
-              <h3 data-ar="الإشعارات" data-en="Notifications">الإشعارات</h3>
-              <p
-                data-ar="تفعيل الإشعارات لمتابعة مشاريعي الجديدة"
-                data-en="Enable notifications to follow my new projects"
-              >
-                تفعيل الإشعارات لمتابعة مشاريعي الجديدة
-              </p>
-              <div class="toggle-container">
-                <label class="switch">
-                  <input type="checkbox" id="notifications-toggle" />
-                  <span class="slider"></span>
-                </label>
-                <span data-ar="تفعيل الإشعارات" data-en="Enable Notifications"
-                  >تفعيل الإشعارات</span
-                >
-              </div>
-            </div>
-
-            <div class="dashboard-card">
-              <div class="dashboard-icon">
-                <i class="fas fa-project-diagram"></i>
-              </div>
-              <h3 data-ar="المشاريع المتابَعَة" data-en="Followed Projects">
-                المشاريع المتابَعَة
-              </h3>
-              <p
-                data-ar="المشاريع التي تتابعها وتريد تلقي تحديثات عنها"
-                data-en="Projects you follow and want to receive updates about"
-              >
-                المشاريع التي تتابعها وتريد تلقي تحديثات عنها
-              </p>
-              <div class="followed-projects" id="followed-projects">
-                <!-- سيتم ملؤها ديناميكياً -->
-              </div>
-            </div>
-
-            <div class="dashboard-card">
-              <div class="dashboard-icon">
-                <i class="fas fa-cog"></i>
-              </div>
-              <h3 data-ar="الإعدادات" data-en="Settings">الإعدادات</h3>
-              <p
-                data-ar="إدارة إعدادات حسابك وتفضيلاتك"
-                data-en="Manage your account settings and preferences"
-              >
-                إدارة إعدادات حسابك وتفضيلاتك
-              </p>
-              <button
-                class="btn btn-outline"
-                id="logout-btn"
-                data-ar="تسجيل الخروج"
-                data-en="Logout"
-              >
-                تسجيل الخروج
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- التذييل -->
     <footer>
       <div class="container">
@@ -598,9 +584,9 @@
           <div class="footer-logo">Maazxp</div>
           <p>
             © 2025 Maazxp.
-            <span data-ar="جميع الحقوق محفوظة." data-en="All rights reserved.">
-              جميع الحقوق محفوظة.
-            </span>
+            <span data-ar="جميع الحقوق محفوظة." data-en="All rights reserved."
+              >جميع الحقوق محفوظة.</span
+            >
           </p>
           <p
             data-ar="مبرمج وصانع ألعاب باستخدام محرك Godot"
@@ -611,342 +597,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- نافذة تسجيل الدخول -->
-    <div class="auth-modal" id="auth-modal">
-      <div class="auth-modal-content">
-        <span class="auth-close">&times;</span>
-        <div class="auth-tabs">
-          <button class="auth-tab active" data-tab="login">
-            <span data-ar="تسجيل الدخول" data-en="Login">تسجيل الدخول</span>
-          </button>
-          <button class="auth-tab" data-tab="register">
-            <span data-ar="إنشاء حساب" data-en="Register">إنشاء حساب</span>
-          </button>
-        </div>
-
-        <form class="auth-form active" id="login-form">
-          <h3 data-ar="تسجيل الدخول" data-en="Login">تسجيل الدخول</h3>
-          <div class="form-group">
-            <label for="login-email" data-ar="البريد الإلكتروني" data-en="Email"
-              >البريد الإلكتروني</label
-            >
-            <input
-              type="email"
-              id="login-email"
-              class="form-control"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="login-password" data-ar="كلمة المرور" data-en="Password"
-              >كلمة المرور</label
-            >
-            <input
-              type="password"
-              id="login-password"
-              class="form-control"
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            class="btn"
-            data-ar="تسجيل الدخول"
-            data-en="Login"
-          >
-            تسجيل الدخول
-          </button>
-        </form>
-
-        <form class="auth-form" id="register-form">
-          <h3 data-ar="إنشاء حساب جديد" data-en="Create Account">
-            إنشاء حساب جديد
-          </h3>
-          <div class="form-group">
-            <label
-              for="register-name"
-              data-ar="الاسم الكامل"
-              data-en="Full Name"
-              >الاسم الكامل</label
-            >
-            <input
-              type="text"
-              id="register-name"
-              class="form-control"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label
-              for="register-email"
-              data-ar="البريد الإلكتروني"
-              data-en="Email"
-              >البريد الإلكتروني</label
-            >
-            <input
-              type="email"
-              id="register-email"
-              class="form-control"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label
-              for="register-password"
-              data-ar="كلمة المرور"
-              data-en="Password"
-              >كلمة المرور</label
-            >
-            <input
-              type="password"
-              id="register-password"
-              class="form-control"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label
-              for="register-confirm-password"
-              data-ar="تأكيد كلمة المرور"
-              data-en="Confirm Password"
-              >تأكيد كلمة المرور</label
-            >
-            <input
-              type="password"
-              id="register-confirm-password"
-              class="form-control"
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            class="btn"
-            data-ar="إنشاء حساب"
-            data-en="Create Account"
-          >
-            إنشاء حساب
-          </button>
-        </form>
-      </div>
-    </div>
-
-    <!-- نافذة الإدارة -->
-    <div class="admin-modal" id="admin-modal">
-      <div class="admin-modal-content">
-        <span class="admin-close">&times;</span>
-        <h2 data-ar="لوحة الإدارة" data-en="Admin Panel">لوحة الإدارة</h2>
-
-        <div class="admin-panel">
-          <div class="admin-actions">
-            <button
-              class="btn"
-              id="add-project-btn"
-              data-ar="إضافة مشروع جديد"
-              data-en="Add New Project"
-            >
-              إضافة مشروع جديد
-            </button>
-            <button
-              class="btn btn-outline"
-              id="export-users-btn"
-              data-ar="تصدير بيانات المستخدمين"
-              data-en="Export Users Data"
-            >
-              تصدير بيانات المستخدمين
-            </button>
-            <button
-              class="btn btn-outline"
-              id="view-users-btn"
-              data-ar="عرض المستخدمين"
-              data-en="View Users"
-            >
-              عرض المستخدمين
-            </button>
-          </div>
-
-          <!-- إحصائيات المستخدمين -->
-          <div class="user-stats" id="user-stats" style="display: none">
-            <div class="stat-card">
-              <div class="stat-number" id="total-users">0</div>
-              <div data-ar="إجمالي المستخدمين" data-en="Total Users">
-                إجمالي المستخدمين
-              </div>
-            </div>
-            <div class="stat-card">
-              <div class="stat-number" id="new-users-today">0</div>
-              <div data-ar="مستخدمين جدد اليوم" data-en="New Users Today">
-                مستخدمين جدد اليوم
-              </div>
-            </div>
-            <div class="stat-card">
-              <div class="stat-number" id="active-users">0</div>
-              <div data-ar="مستخدمين نشطين" data-en="Active Users">
-                مستخدمين نشطين
-              </div>
-            </div>
-            <div class="stat-card">
-              <div class="stat-number" id="banned-users">0</div>
-              <div data-ar="المستخدمين المحظورين" data-en="Banned Users">
-                المستخدمين المحظورين
-              </div>
-            </div>
-          </div>
-
-          <!-- قائمة المستخدمين -->
-          <div
-            class="users-management"
-            id="users-management"
-            style="display: none"
-          >
-            <h3 data-ar="المستخدمين المسجلين" data-en="Registered Users">
-              المستخدمين المسجلين
-            </h3>
-            <div class="users-list" id="users-list">
-              <!-- سيتم ملؤها ديناميكياً -->
-            </div>
-          </div>
-
-          <!-- إدارة المشاريع -->
-          <div class="projects-management">
-            <h3 data-ar="إدارة المشاريع" data-en="Projects Management">
-              إدارة المشاريع
-            </h3>
-
-            <!-- نموذج إضافة/تعديل المشروع -->
-            <div class="project-form" id="project-form" style="display: none">
-              <h4
-                id="project-form-title"
-                data-ar="إضافة مشروع جديد"
-                data-en="Add New Project"
-              >
-                إضافة مشروع جديد
-              </h4>
-              <div class="form-group">
-                <label
-                  for="project-title"
-                  data-ar="عنوان المشروع"
-                  data-en="Project Title"
-                  >عنوان المشروع</label
-                >
-                <input
-                  type="text"
-                  id="project-title"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label
-                  for="project-description"
-                  data-ar="وصف المشروع"
-                  data-en="Project Description"
-                  >وصف المشروع</label
-                >
-                <textarea
-                  id="project-description"
-                  class="form-control"
-                  required
-                ></textarea>
-              </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <label
-                    for="project-color1"
-                    data-ar="اللون الأول"
-                    data-en="First Color"
-                    >اللون الأول</label
-                  >
-                  <input
-                    type="color"
-                    id="project-color1"
-                    class="form-control"
-                    value="#667eea"
-                  />
-                  <div
-                    class="color-preview"
-                    id="color-preview1"
-                    style="background: #667eea"
-                  ></div>
-                </div>
-                <div class="form-group">
-                  <label
-                    for="project-color2"
-                    data-ar="اللون الثاني"
-                    data-en="Second Color"
-                    >اللون الثاني</label
-                  >
-                  <input
-                    type="color"
-                    id="project-color2"
-                    class="form-control"
-                    value="#764ba2"
-                  />
-                  <div
-                    class="color-preview"
-                    id="color-preview2"
-                    style="background: #764ba2"
-                  ></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label
-                  for="project-icon"
-                  data-ar="أيقونة المشروع"
-                  data-en="Project Icon"
-                  >أيقونة المشروع</label
-                >
-                <input
-                  type="text"
-                  id="project-icon"
-                  class="form-control"
-                  value="🚀"
-                  placeholder="🚀"
-                />
-              </div>
-              <div class="form-group">
-                <label
-                  for="project-link"
-                  data-ar="رابط المشروع (اختياري)"
-                  data-en="Project Link (Optional)"
-                  >رابط المشروع (اختياري)</label
-                >
-                <input type="url" id="project-link" class="form-control" />
-              </div>
-              <div class="form-group">
-                <button
-                  type="button"
-                  class="btn"
-                  id="save-project-btn"
-                  data-ar="حفظ المشروع"
-                  data-en="Save Project"
-                >
-                  حفظ المشروع
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-outline"
-                  id="cancel-project-btn"
-                  data-ar="إلغاء"
-                  data-en="Cancel"
-                >
-                  إلغاء
-                </button>
-              </div>
-            </div>
-
-            <!-- قائمة المشاريع -->
-            <div class="admin-projects-list" id="admin-projects-list">
-              <!-- سيتم ملؤها ديناميكياً -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- نافذة الإشعارات -->
-    <div class="notification-toast" id="notification-toast"></div>
-
-   <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
